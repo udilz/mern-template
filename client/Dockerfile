@@ -7,8 +7,8 @@ COPY . .
 
 RUN npm install -g pnpm@latest
 RUN pnpm install
-RUN pnpm build
 
-CMD [ "pnpm", "preview" ]
+
+CMD [ "pnpm", "dev" ]
 
 EXPOSE 4173

@@ -1,5 +1,5 @@
 import { Mail, PenLineIcon, Verified } from 'lucide-react';
-import { Button } from './button';
+import { Button } from '../ui/button';
 import type { Meta, StoryObj } from '@storybook/react';
 
 const meta: Meta<typeof Button> = {

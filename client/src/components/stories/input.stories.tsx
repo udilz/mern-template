@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { Input } from './input';
+import { Input } from '../ui/input';
 import { AtSign, Lock } from 'lucide-react';
 
 const meta: Meta<typeof Input> = {
